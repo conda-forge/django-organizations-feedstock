@@ -5,7 +5,7 @@ Home: https://github.com/bennylope/django-organizations
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Multi-user accounts for Django projects
 
