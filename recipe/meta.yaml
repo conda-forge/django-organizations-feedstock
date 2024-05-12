@@ -1,5 +1,5 @@
 {% set name = "django-organizations" %}
-{% set version = "2.0.1" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2f1d9febaa6c9d169a0d48b0228245d2fae16df3a124219008712c62895cc328
+  sha256: 300bdbbd857749f1cdd0e6613417e3b2a40516c3a688bfd1d5228fbb994713c1
 
 build:
   noarch: python
