@@ -7,7 +7,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/django_organizations-${{ version }}.tar.gz
   sha256: 8cc8cd617dabf68e9118f4f5c7c2dddf89549e18f5696f70a419da3ccecfc17f
 
 build:
