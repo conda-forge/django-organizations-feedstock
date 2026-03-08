@@ -1,6 +1,6 @@
 context:
   name: django-organizations
-  version: 2.5.0
+  version: "2.6.0"
 
 package:
   name: ${{ name|lower }}
@@ -9,7 +9,7 @@ package:
 source:
   # NOTE: the source pypi archive is broken (no src/ folder in it)
   url: https://github.com/bennylope/django-organizations/archive/refs/tags/${{ version }}.zip
-  sha256: ee0c29818910e210cefd13506eddfb93c5886e2dd406d921f4cb846ce98d2f0e
+  sha256: 9280cf818be7b7a8b98c5881294c895e83d4775d6b50da9e47ae3ded6e59186d
 
 build:
   number: 0
